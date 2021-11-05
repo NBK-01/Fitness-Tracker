@@ -17,7 +17,7 @@ mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/fitness", {
   useCreateIndex: true
 });
 
-
+//...
 app.use(require("./routes/api.js"));
 
 app.listen(PORT, () => {
